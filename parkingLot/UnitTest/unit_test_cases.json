@@ -1,0 +1,51 @@
+{
+    "test1": {
+        "function" : "create_parking_lot",
+        "slot_count": 3
+    },
+    "test3": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Allocated slot number: 1",
+        "vehicle_reg_no" : "KA-01-HH-1234",
+        "vehicle_color": "White"
+    },
+    "test2": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Allocated slot number: 2",
+        "vehicle_reg_no" : "KA-01-HH-9999",
+        "vehicle_color": "White"
+    },
+    "test5": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Allocated slot number: 3",
+        "vehicle_reg_no" : "KA-01-BB-0001",
+        "vehicle_color": "Black"
+    },
+    "test4": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Vehicle is already in parking lot",
+        "vehicle_reg_no" : "KA-01-HH-1234",
+        "vehicle_color": "White"
+    },
+    "test7": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Sorry, parking lot is full",
+        "vehicle_reg_no" : "KA-01-HH-3141",
+        "vehicle_color": "Black"
+    },
+    "test6": {
+        "function" : "release_vehicle",
+        "Expected Answer" : "Slot number 1 is free",
+        "slot_number" : "1"
+    },
+    "test9": {
+        "function" : "assign_vehicle_slot",
+        "Expected Answer" : "Allocated slot number: 1",
+        "vehicle_reg_no" : "KA-01-HH-1234",
+        "vehicle_color": "White"
+    },
+    "test8": {
+        "function" : "slot_number_for_registration_number",
+        "vehicle_reg_no" : "KA-01-HH-1234"
+    }
+}

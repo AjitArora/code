@@ -1,0 +1,21 @@
+Instructions: Please use 2.7 Python environment to run code.
+
+Below are commands to run:
+first go to parkingLot/Src folder
+
+1. python main.py
+It will give interactive command prompt, need to type inputs on that.
+To exit, please put cmd: exit
+and enter
+
+2. python main.py input.txt > output.txt
+It will read inputs from given input file and write output to specified output file.
+
+
+To run UnitTest cases,
+
+1. first go to parkingLot/UnitTest folder
+2. export python path of src directory as below on linux:
+    export PYTHONPATH=$HOME/parkingLot/Src 
+3. python unit_test.py
+It will pick all test cases written in unit_test_cases.json file and will execute it.
